@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{xfrac}
+\date{December 2020}
+
+\begin{document}
+%---------1-Text-------------
+\title{OS-lab Homework}
+%-----------2-Text-----------
+\section{Text}
+\begin{center}
+  \Large  This is homework9 for OSlab!\\
+\end{center}
+%----------3-Image----------
+\section{Image}
+\begin{center}
+  \Large It is a picture of nature:\\
+   \includegraphics[width = 15cm, height = 10cm]{download.png}
+\end{center}
+%----------4-Table----------
+\section{table}
+\begin{table}[h]
+\begin{center}
+{\Large
+    \caption{My table}
+    \begin{tabular}{|l|c|c|r|}
+    \hline
+    1&2&3&4\\
+    \hline
+    left&center&center&right\\  
+    \hline
+    \end{tabular}
+}
+    \end{center}
+\end{table}
+%-----------5-Formula--------
+\section{Formula}
+\begin{center}
+{\Large
+  $A=\frac{x}{1+\frac{1+x}{2y}}$
+  $$\binom{n}{k}=\frac{n!}{k!(n-k)!}$$
+  $$\sum_{i=1}^{n} p_{i}=2$$
+}
+\end{center}
+%-----------6-Code--------
+\section{code}
+\begin{lstlisting}[language=C++]
+{\Large
+#include <iostream>
+using namespace std;
+int main()
+{
+int sum=0;
+for(int i=1;i<=10;i++)
+{
+  sum+=i;
+}
+cout<<"sum="<<sum;
+}
+}
+\end{lstlisting}
+\end{document}
